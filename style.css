@@ -8,7 +8,7 @@ html {
 }
 
 /* BACKGROUND HEADER */
-
+/*
 div.header-img {
   width: 100%;
   height: 210px;
@@ -16,4 +16,98 @@ div.header-img {
   background-size: cover;
   position: fixed;
   z-index: 99;
+}*/
+
+h4 {
+  font-family: 'Gudea', sans-serif;
+  margin: 15px;
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+h5 {
+  text-align: justify;
+  margin: 15px;
+}
+
+/* CSS Grid for Card*/
+.container{
+  display: grid;
+  max-width: 1366px;
+  /*margin: auto;*/
+  grid-template: 400px 280px / repeat(2, 400px);
+  justify-content: center;
+  grid-column-gap: 10px;
+}
+
+.card-image {
+}
+
+.card-content {
+  position: relative;
+  background-color:beige;
+  color: black;
+  font-size: 17px;
+  word-spacing: 0.3em;
+  border: 3px solid black;
+}
+
+/* Food Container Row 1 */
+.rendang .card-image {
+  grid-area: 1/1/2/2;
+}
+
+.rendang .card-content {
+  grid-area: 2/1/3/2;
+}
+
+.nasigoreng .card-image {
+  grid-area: 1/2/2/3;
+}
+
+.nasigoreng .card-content {
+  grid-area: 2/2/3/3;
+}
+
+/* Food Container Row 2*/
+.satay .card-image {
+  grid-area: 1/1/2/2;
+}
+
+.satay .card-content {
+  grid-area: 2/1/3/2;
+}
+
+.bakso .card-image{
+  grid-area: 1/2/2/3;
+}
+
+.bakso .card-content {
+  grid-area: 2/2/3/3;
+}
+
+/* Food Container Row 3*/
+.gadogado .card-image {
+  grid-area: 1/1/2/2;
+}
+
+.gadogado .card-content {
+  grid-area: 2/1/3/2;
+}
+
+.oxtailsoup .card-image{
+  grid-area: 1/2/2/3;
+}
+
+.oxtailsoup .card-content {
+  grid-area: 2/2/3/3;
+}
+
+/* Food Container Row 4*/
+.ayampenyet .card-image{
+  grid-area: 1/2/2/3;
+}
+
+.ayampenyet .card-content {
+  grid-area: 2/2/3/3;
 }
