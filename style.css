@@ -17,3 +17,23 @@ div.header-img {
   position: fixed;
   z-index: 99;
 }
+
+/* FOOTER AREA */
+
+.background-footer{
+  background-color: #D4A656;
+  margin-top: 30px;
+  padding-top: 30x;
+  padding-bottom: 30px;
+}
+
+.footer-content{
+  padding-top: 50px;
+  padding-bottom: 15px;
+  text-align: center;
+}
+
+.footer-content h3{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
