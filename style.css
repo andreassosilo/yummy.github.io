@@ -29,13 +29,13 @@ div.header-img {
   padding-bottom: 10px;
   border-bottom: 2px solid whitesmoke;
   color: rgba(249, 251, 93, 0.5);
-  font-family: Gudea, sans-serif;
+  font-family: "Roboto", sans-serif;
   font-size: 71px;
 }
 
 div.opening-word {
-  padding-top : 491px; 
-  width : 1300px;
+  padding-top : 485px; 
+  width : 100%;
   background-color: rgba(0, 0, 0, 0.7);
 }
 
@@ -45,11 +45,12 @@ div.opening-word {
   display: inline;
   position: relative;
   bottom : 252px;
+  left: -25px;
   text-align: center;
   padding-top: 10px;
   color : whitesmoke;
-  font-family: "ZCOOL XiaoWei", serif;
-  font-size : 20px
+  font-family: "Roboto", sans-serif;
+  font-size : 30px;
 }
 
 /* CODE NAVIGASI */
@@ -58,7 +59,6 @@ div.navbar-head {
   height: 80px;
   background-color: rgba(0, 0, 0, 0.9);
   box-sizing: border-box;
-  position: fixed;
   z-index: 100;
 }
 
@@ -67,6 +67,7 @@ div.navbar-head {
   margin: 0 20px;
   position: relative;
   top: 10px;
+  font-weight: bold;
 }
 
 .navbar-head ul {
@@ -75,6 +76,7 @@ div.navbar-head {
 
 .navbar-content li a{
   width: 112px;
+  font-family: 'Roboto', sans-serif;
 }
 
 .navbar-head a {
@@ -91,12 +93,26 @@ div.navbar-head {
 }
 
 .navbar-head a:hover {
-  background-color: white;
-  color: black;
+  background-color: #ffb22b;
+  color: white;
 }
 
 .navbar-head a:active {
-  background-color: black;
+  background-color: #ffb22b;
+  color: white;
+}
+
+/* First Title */
+.outside-border-line{
+  background-color: #B0786C;
+}
+
+.title-content{
+  padding: 30px 0;
+}
+
+.title-content h2{
+  font-family: 'Roboto', sans-serif;
   color: white;
 }
 
@@ -112,7 +128,7 @@ h2 {
 h4{
   font-family: 'Gudea', sans-serif;
   margin: 15px;
-  font-weight: bolder;
+  font-weight: bold;
   font-size: 30px;
 }
 
@@ -128,22 +144,25 @@ h5 {
   margin: auto;
   grid-template: 400px 280px / repeat(2, 400px);
   justify-content: center;
-  grid-column-gap: 10px;
+  grid-column-gap: 35px;
+  grid-row-gap: 30px;
 }
 
 .card-content {
   position: relative;
-  /*background-color:beige;
-  color: black;*/
+  background-color:beige;
+  color: black;
   font-size: 17px;
   word-spacing: 0.3em;
-  border: 3px solid black;
+  border: 2px solid black;
+  bottom: 4px;
+  border-top-color: transparent;
 }
 
 .card .card-content {
   background-color: beige;
   color:black;
-  width: 394px;
+  width: 398px;
   height: 264px;
 }
 
@@ -210,18 +229,26 @@ h5 {
 /* FOOTER AREA */
 .background-footer{
   background-color: #D4A656;
-  margin-top: 30px;
   padding-top: 30x;
   padding-bottom: 30px;
 }
 
 .footer-content{
   padding-top: 50px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
   text-align: center;
 }
 
 .footer-content h3{
   font-family: 'Roboto', sans-serif;
   font-weight: bold;
+  color: white;
+  font-size: 25px;
+}
+
+.footer-content h5{
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  text-align: center;
+  font-size: 20px;
 }
